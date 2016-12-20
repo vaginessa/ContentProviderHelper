@@ -4,6 +4,7 @@ Content Provider Helper
 ... is a frontend to discover/view/query data of android content providers.
 
 [Original](https://github.com/jenzz/ContentProviderHelper) : Copyright (c) 2014-2016 Jens Driller under [MIT license](LICENSE-old-mit-jenzz)
+
 [Improvements](https://github.com/k3b/ContentProviderHelper) : Copyright (c) 2015-2016 k3b under [GNU GENERAL PUBLIC LICENSE Version 3 or later](LICENSE)
 
 Description
@@ -13,8 +14,7 @@ Android content-providers are similar to database-tables.
 They have a name (aka "content:" uri), 
 columns and they can be queried similar to Sql.
 
-Android uses 
-[https://developer.android.com/guide/topics/providers/content-providers.html content-providers]
+Android uses [content-providers](https://developer.android.com/guide/topics/providers/content-providers.html)
 as api to manage global accessable data (i.e. Images, Telephone-book, SMS, ...).
 
 ContentProviderHelper is a frontend to query installed content-providers.
@@ -92,7 +92,7 @@ The following content providers are provided by default:
 What's New
 ----------
 
-### v1.3.0: (to be released in fdroid appstore, soon)
+### v1.3.0: (since 2016-11-01 available in [f-droid appstore](https://f-droid.org/repository/browse/?fdid=de.k3b.android.contentproviderhelper))
 
 * improvements: restore last used contentprovider+Fields in "on app load"
 * updated to gradle-2.14.1/build tools 24.0.2/java8/AndroidStudio-2.2
