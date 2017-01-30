@@ -123,4 +123,4 @@ What's New
 
 License
 -------
-This project is licensed under the [MIT License](https://raw.githubusercontent.com/jenzz/ContentProviderHelper/master/LICENSE).
+This project is licensed under [gpl-v3 License](https://github.com/k3b/ContentProviderHelper/blob/FDroid/LICENSE).
