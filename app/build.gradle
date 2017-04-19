@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '24.0.2'
+    buildToolsVersion '25.0.2'
     defaultConfig {
         // applicationId 'com.jensdriller.contentproviderhelper'
         applicationId 'de.k3b.android.contentproviderhelper'
@@ -12,9 +12,16 @@ android {
         versionName "1.3.0"
     }
     buildTypes {
-        release {
+        debug {
+            // shrinkResources true
+            // minifyEnabled true
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
